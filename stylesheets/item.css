@@ -1,0 +1,113 @@
+h1
+{
+	margin: 12px 30px;
+}
+
+#item_description
+{
+	margin: 10px 70px;
+	font-size: 21px;
+	color: #FFF;
+}
+
+.item_repo
+{
+	width: 200px;
+}
+
+#git_button
+{
+	float: none;
+	margin: auto;
+	padding: 10px;
+	width: auto;
+}
+
+#git_button img
+{
+	display: inline;
+	vertical-align: middle;
+}
+
+#git_button p
+{
+	margin: auto;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+}
+
+#git_button a
+{
+	text-decoration: none;
+}
+
+.slide_button
+{
+	position: absolute;
+	width: 60px;
+	height: 100px;
+	border: 0;
+	border-radius: 8px;
+	background-color: #9A9A9F;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.slide_button img
+{
+	margin-top: 0px;
+	width: 60%;
+	height: 75%;
+}
+
+.slide_button:hover img
+{
+    -webkit-filter: brightness(20%); /* Chrome, Safari, Opera */
+    filter: brightness(20%);
+}
+
+#left
+{
+	top: 40%;
+	left: 10px;
+}
+
+#right
+{
+	top: 40%;
+	right: 10px;
+}
+
+#slide_show
+{
+	position: relative;
+	margin: 20px auto;
+	width: 640px;
+}
+
+#wrapper_over
+{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+#img_under
+{
+	margin-left: 0;
+	margin-right: 0;
+	width: 640px;
+}
+
+#img_over
+{
+	width: 640px;
+}
+
+.fade_effect
+{	
+	-moz-transition: opacity .4s linear;
+	-webkit-transition: opacity .4s linear;
+	transition: opacity .4s linear;
+}

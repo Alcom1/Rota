@@ -1,0 +1,34 @@
+canvas
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #282828;
+	image-rendering: crisp-edges;
+	border: 3px solid #FFFF66;
+}
+
+#audioControls
+{
+	display: none;
+}
+
+p
+{
+	margin-left: 15px;
+}
+
+h3
+{
+	margin-left: 15px;
+	font-size: 22px;
+}
+
+#controls
+{
+	margin: 6px; 0px;
+	text-align: center;
+	color: #FFF;
+}
