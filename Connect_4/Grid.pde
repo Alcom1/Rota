@@ -209,7 +209,7 @@ public class Grid
                 }
                 
                 //Victory text
-                rotate(radians(rotation));
+                rotate(-radians(rotation));
                 //Text background outline
                 stroke(0);
                 strokeWeight(84);
@@ -413,7 +413,7 @@ public class Grid
             }
             
             //Check if right angle rotation was performed and stop. Also check for win.
-            if((90 + floor(rotation)) % 180 == 0)
+            if(abs(rotation) > 90)
             {
                 endRotation(true);
                 switch(checkWin())      //If win, proceed with victory sequence.

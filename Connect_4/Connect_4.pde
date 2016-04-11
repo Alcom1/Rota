@@ -43,14 +43,12 @@ public void setup()
     buttonPlay = new ButtonPlay();
     button2Play = new Button2Play();
     buttonSingle = new ButtonSingle();
-	
-	print("LOL!");
 }
 
 //Drawing
 public void draw()
 {
-    background(0, 0, 50);  //Background
+    background(#DAE2F3);  //Background
     
     transition();
     
@@ -63,7 +61,11 @@ public void draw()
             0,
             height - 90,
             width,
-            height);
+            height,
+            20,
+            20,
+            20,
+            20);
         rectMode(CENTER);
     }
     
